@@ -23,7 +23,7 @@ switch (myArgs[0]) {
 default:
 client.on("message", async message => {
 
-client.user.setActivity("Bad_duck 🐤")
+client.user.setActivity("Bad duck 🐤")
   let messageArray = message.content.split(" ");
   let cmd = messageArray[0];
   let args = messageArray.slice(1);
